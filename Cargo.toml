@@ -1,0 +1,12 @@
+[package]
+name = "bool-enum"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+proc-macro = true
+path = "bool-enum.rs"
+
+[dependencies]
+syn = {version = "*", features = ["full"]}
+quote = "*"
